@@ -31,6 +31,12 @@
         $nombre=$_POST['nombre'];
         $cantidad=$_POST['cantidad'];
         $cardgame=$_POST['cartas'];
-        $this->modelJuego->()
+        var_dump($nombre);
+        var_dump($cantidad);
+
+        var_dump($cardgame);
+
+       $this->modelJuego->agregarjuego($nombre,$cantidad,$cardgame);
+
     }
 }

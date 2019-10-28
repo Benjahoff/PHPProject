@@ -32,5 +32,9 @@ class JuegoModel {
     }
 
     #///////////////////////////////////////////////////////////////////////////////////
-    
+    public function agregarjuego($nombre,$cantidad,$cardgame){
+        
+        $query = $this->db->prepare('INSERT INTO juego (nombre, cantidad_jugadores, juego_de_cartas) VALUES (?,?,?)');
+        $query->execute([$nombre,$cantidad,$cardgame]);
+    }
 }

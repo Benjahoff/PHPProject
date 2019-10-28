@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-10-28 03:57:18
+/* Smarty version 3.1.33, created on 2019-10-28 04:15:26
   from 'F:\Program Files\XAMPP\htdocs\benja\tetocaavos\templates\AddGame.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5db6590e0a54f4_66215008',
+  'unifunc' => 'content_5db65d4e4bd256_52822388',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '88a6554345576b8b7d32c828857ebc616f5341eb' => 
     array (
       0 => 'F:\\Program Files\\XAMPP\\htdocs\\benja\\tetocaavos\\templates\\AddGame.tpl',
-      1 => 1572231256,
+      1 => 1572231583,
       2 => 'file',
     ),
   ),
@@ -22,10 +22,10 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:templates/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5db6590e0a54f4_66215008 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5db65d4e4bd256_52822388 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:templates/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
-<form action="agregarJuego/" method="POST">
+<form action="confirmarjuego" method="POST">
                 <table class="table table-dark">
                     <thead>
                         <th>
