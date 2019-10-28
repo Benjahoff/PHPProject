@@ -30,4 +30,7 @@ class JuegoModel {
         $query = $this->db->prepare('UPDATE alumno SET nombre=? , apellido=?, dni=?, id_especialidad=? WHERE id_alumno =?');
         $query->execute(array($nombre,$apellido,$documento,$especialidad,$id_alumno));
     }
+
+    #///////////////////////////////////////////////////////////////////////////////////
+    
 }

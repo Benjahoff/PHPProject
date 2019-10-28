@@ -9,9 +9,9 @@
 
     $r->addRoute("home", "GET", "JuegoController", "showHome");
     $r->addRoute("agregarJuego", "GET", "JuegoController", "AddGame");
- 
+    $r->addRoute("confirmarjuego", "POST", "JuegoController", "confirmarjuego");
     
-    $r->setDefaultRoute("GET","JuegoController", "showHome");
+    $r->setDefaultRoute("home", "GET", "JuegoController", "showHome");
 
     $r->route($_GET['action'], $_SERVER['REQUEST_METHOD']);
     

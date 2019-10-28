@@ -27,4 +27,10 @@
         $this->view->AddGame();
 
     }
+    public function confirmarjuego(){
+        $nombre=$_POST['nombre'];
+        $cantidad=$_POST['cantidad'];
+        $cardgame=$_POST['cartas'];
+        $this->modelJuego->()
+    }
 }
