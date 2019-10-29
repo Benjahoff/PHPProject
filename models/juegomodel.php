@@ -37,4 +37,10 @@ class JuegoModel {
         $query = $this->db->prepare('INSERT INTO juego (nombre, cantidad_jugadores, juego_de_cartas) VALUES (?,?,?)');
         $query->execute([$nombre,$cantidad,$cardgame]);
     }
+
+    public function getApuestas() {
+        $query = $this->db->prepare('SELECT apuesta.id_apuesta, juego.nombre, apuesta.fecha, apuesta.monto AS juego FROM apuesta JOIN juego ON apuesta.id_juego=juego.id_juego');
+        $query->execute();
+        return $query->fetchAll(PDO::FETCH_OBJ);
+    }
 }

@@ -1,4 +1,7 @@
 {include "templates/header.tpl"}
+<div>
+    <a href="verApuestas"><button>Vista por Apuestas</button></a>
+</div>
 <table>
     <tbody>
         <tr>
@@ -12,7 +15,7 @@
                 </select>
             </td>
             <td>
-            <a href="agregarJuego">Agregar Juego</a>
+                <a href="agregarJuego">Agregar Juego</a>
             </td>
         </tr>
     </tbody>

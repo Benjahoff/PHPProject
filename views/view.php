@@ -2,6 +2,9 @@
     require_once('libs/Smarty.class.php');
    
     class JuegoView {
+
+        private $smarty;
+
         public function showAll($juegos) {
             $smarty = new Smarty();
             $smarty->assign('basehref', BASE_URL);
@@ -25,5 +28,12 @@
             $smarty->assign('especialidad',$especialidad);
             $smarty->display('templates\modifyEsp.tpl');
 
+        }
+
+        public function showApuestas($apuestas) {
+            $smarty = new Smarty();
+            $smarty->assign('basehref', BASE_URL);
+            $smarty->assign('apuestas', $apuestas);
+            $smarty->display('templates\apuestas');
         }
     }
