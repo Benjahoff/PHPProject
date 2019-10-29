@@ -42,7 +42,6 @@
 
     public function showApuestas() {
         $apuestas = $this->modelJuego->getApuestas();
-        var_dump($apuestas);
         $this->view->showApuestas($apuestas);
     }
 }

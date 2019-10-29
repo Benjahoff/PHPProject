@@ -12,10 +12,10 @@
     <tbody>
         {foreach $apuestas as $apuesta}
             <tr>
-                <td>{apuesta->id_apuesta}</td>
-                <td>{apuesta->nombre}</td>
-                <td>{apuesta->fecha}</td>
-                <td>{apuesta->monto}</td>
+                <td>{$apuesta->id_apuesta}</td>
+                <td>{$apuesta->nombre}</td>
+                <td>{$apuesta->fecha}</td>
+                <td>{$apuesta->monto}</td>
             </tr>
         {/foreach}
     </tbody>

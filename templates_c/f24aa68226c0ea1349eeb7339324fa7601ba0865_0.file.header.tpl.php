@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-10-29 13:55:08
+/* Smarty version 3.1.33, created on 2019-10-29 14:54:25
   from 'C:\xampp\htdocs\Web2\chiripas\tetocaavos\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5db836acacd975_64651840',
+  'unifunc' => 'content_5db84491663730_97305580',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5db836acacd975_64651840 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5db84491663730_97305580 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
             <html lang="es">
             <head>

@@ -31,9 +31,10 @@
         }
 
         public function showApuestas($apuestas) {
+            var_dump($apuestas);
             $smarty = new Smarty();
             $smarty->assign('basehref', BASE_URL);
             $smarty->assign('apuestas', $apuestas);
-            $smarty->display('templates\apuestas');
+            $smarty->display('templates\apuestas.tpl');
         }
     }
